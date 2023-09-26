@@ -1,0 +1,16 @@
+Day 3 [23/09/2023] ?
+
+- Create landing page using class component and functional component
+- Create an example of difference between function and arrow function [this, super, arguments, new target]
+
+Submission date : 25/09/2023 monday
+
+
+Day 4 [26/09/2023] ?
+
+- Create counter application using class and function component ?
+
+Counter for +1, +5, +10, -1, -5, -10 [six button and 2 function (1 for increement, 1 for decreement)]
+Button should be a component here...
+
+Submission date : 27/09/2023 Wednesday
