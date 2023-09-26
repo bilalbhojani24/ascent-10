@@ -1,17 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import App from './App'; // default import
+import App2 from './App2'; // default import
+import JSXComponent from './JSXComponent';
+import Card from './Card';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import './index.css';
+
+const root = ReactDOM.createRoot(document.getElementById('root')); // target container
+
+// Render the content(component, html) inside target container
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <App2 /> */}
+    {/* <JSXComponent /> */}
+    <div className="flex">
+      <Card
+        heading="Iphone 12"
+        description="Iphone 12 is goot mobile"
+        price="$60"
+      />
+      <Card
+        heading="Iphone 13"
+        description="Iphone 12 is goot mobile"
+        price="$60"
+      />
+      <Card
+        heading="Iphone 14"
+        description="Iphone 12 is goot mobile"
+        price="$60"
+      />
+      <Card
+        heading="Iphone 15"
+        description="Iphone 12 is goot mobile"
+        price="$60"
+      />
+    </div>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
